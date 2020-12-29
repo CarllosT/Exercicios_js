@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=var estado_do_bulbo = true;
+
+    var lampada_plugada = true;
+    
+    function plugarLampada() {
+      lampada_plugada = true;
+      console.log("Lampada plugada...");
+    }
+    
+    function trocarBulbo() {
+      estado_do_bulbo = true;
+      console.log("Bulbo trocado...");
+    }
+    
+    function comprarNovaLampada() {
+        console.log("Uma nova Lampada foi comprada!!");
+    }
+    //A lampada está plugada?
+    if (lampada_plugada === false) {
+      plugarLampada();
+    } else {
+      //O bulbo está queimado?
+      if (estado_do_bulbo === false) {
+          trocarBulbo();
+      }else{
+          comprarNovaLampada()
+      }
+    }
+    , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>

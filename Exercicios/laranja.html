@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laranjas</title>
+</head>
+<body>
+    <script>
+        function divLaranjas (laranjas, vizinhos){
+            return laranjas/vizinhos;
+        }
+
+        var nLaranjas = prompt("Quantas laranjas você tem?")
+        var nVizinhos = prompt ("Quantos vizinhos você tem?")
+        var dividir = divLaranjas(nLaranjas,nVizinhos);
+
+        document.write("A quantidade de laranjas a serem recebidas por cada vizinho é:  "+ dividir +" laranjas.")
+    </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizarria</title>
+</head>
+<body>
+    <script>
+        
+        var pizzaCusto = prompt("Digite o preço de custo: ");
+        var pizzaVen = prompt(" Digite o preço de venda: ");
+        var pizzaSabor =prompt("Digite o Sabor da Pizza: ");
+        var imposto = (pizzaCusto * 8.9)/ 100;
+        var lucro = pizzaVen - pizzaCusto;
+      
+        document.write("Para a pizza "+pizzaSabor+", o lucro liquido é de R$ "+lucro+", e o imposto é de R$" + imposto);
+    </script>
+    
+</body>
+</html>
